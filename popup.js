@@ -22,7 +22,7 @@ $(document).ready(function (){
 		setTimeout(function () {
 			$('.email').hide('slide', {
 				direction: 'right'
-			}, 3000);
-		}, 500);
+			}, 500);
+		}, 2000);
 	});
 });

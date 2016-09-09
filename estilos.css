@@ -5,7 +5,7 @@
 	bottom: 0;
 	font-family: Helvetica, Arial, sans-serif;;
 	word-wrap: break-word;
-	width: 400px;
+	width: 300px;
 	font-size: 15px;
 	border-top-left-radius: 5px;
 	box-shadow: -1px -1px 5px grey;
@@ -83,7 +83,7 @@
 
 }
 
-@media screen and (max-width: 480px), screen and (max-height: 600px) {
+@media screen and (max-width: 961px) {
     .pop-up{
         display: none;
     }
