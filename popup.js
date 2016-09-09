@@ -15,4 +15,9 @@ $(document).ready(function (){
 		}, 500);
 
 	});
+
+	$('.submit').on('click', function (){
+		$('.pop-up.email input').hide();
+		$('.pop-up.email h2').show();
+	});
 });
