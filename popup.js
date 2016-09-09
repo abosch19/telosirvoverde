@@ -19,5 +19,10 @@ $(document).ready(function (){
 	$('.submit').on('click', function (){
 		$('.pop-up.email input').hide();
 		$('.pop-up.email h2').show();
+		setTimeout(function () {
+			$('.email').hide('slide', {
+				direction: 'right'
+			}, 3000);
+		}, 500);
 	});
 });
